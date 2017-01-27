@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40AC4EC1E3BB9F800D46BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC4EB1E3BB9F800D46BE2 /* AppDelegate.swift */; };
+		C40AC4EE1E3BB9F800D46BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC4ED1E3BB9F800D46BE2 /* ViewController.swift */; };
+		C40AC4F11E3BB9F800D46BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40AC4EF1E3BB9F800D46BE2 /* Main.storyboard */; };
+		C40AC4F31E3BB9F800D46BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40AC4F21E3BB9F800D46BE2 /* Assets.xcassets */; };
+		C40AC4F61E3BB9F800D46BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40AC4F41E3BB9F800D46BE2 /* LaunchScreen.storyboard */; };
+		C40AC5011E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC5001E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.swift */; };
+		C40AC50C1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC50B1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40AC4FD1E3BB9F800D46BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40AC4E01E3BB9F800D46BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40AC4E71E3BB9F800D46BE2;
+			remoteInfo = PINRemoteImageButtonTint;
+		};
+		C40AC5081E3BB9F800D46BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40AC4E01E3BB9F800D46BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40AC4E71E3BB9F800D46BE2;
+			remoteInfo = PINRemoteImageButtonTint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40AC4E81E3BB9F800D46BE2 /* PINRemoteImageButtonTint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINRemoteImageButtonTint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40AC4EB1E3BB9F800D46BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40AC4ED1E3BB9F800D46BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40AC4F01E3BB9F800D46BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40AC4F21E3BB9F800D46BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40AC4F51E3BB9F800D46BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40AC4F71E3BB9F800D46BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40AC4FC1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINRemoteImageButtonTintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40AC5001E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINRemoteImageButtonTintTests.swift; sourceTree = "<group>"; };
+		C40AC5021E3BB9F800D46BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40AC5071E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINRemoteImageButtonTintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40AC50B1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINRemoteImageButtonTintUITests.swift; sourceTree = "<group>"; };
+		C40AC50D1E3BB9F800D46BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40AC4E51E3BB9F800D46BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC4F91E3BB9F800D46BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC5041E3BB9F800D46BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40AC4DF1E3BB9F800D46BE2 = {
+			isa = PBXGroup;
+			children = (
+				C40AC4EA1E3BB9F800D46BE2 /* PINRemoteImageButtonTint */,
+				C40AC4FF1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests */,
+				C40AC50A1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests */,
+				C40AC4E91E3BB9F800D46BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40AC4E91E3BB9F800D46BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40AC4E81E3BB9F800D46BE2 /* PINRemoteImageButtonTint.app */,
+				C40AC4FC1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.xctest */,
+				C40AC5071E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40AC4EA1E3BB9F800D46BE2 /* PINRemoteImageButtonTint */ = {
+			isa = PBXGroup;
+			children = (
+				C40AC4EB1E3BB9F800D46BE2 /* AppDelegate.swift */,
+				C40AC4ED1E3BB9F800D46BE2 /* ViewController.swift */,
+				C40AC4EF1E3BB9F800D46BE2 /* Main.storyboard */,
+				C40AC4F21E3BB9F800D46BE2 /* Assets.xcassets */,
+				C40AC4F41E3BB9F800D46BE2 /* LaunchScreen.storyboard */,
+				C40AC4F71E3BB9F800D46BE2 /* Info.plist */,
+			);
+			path = PINRemoteImageButtonTint;
+			sourceTree = "<group>";
+		};
+		C40AC4FF1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40AC5001E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.swift */,
+				C40AC5021E3BB9F800D46BE2 /* Info.plist */,
+			);
+			path = PINRemoteImageButtonTintTests;
+			sourceTree = "<group>";
+		};
+		C40AC50A1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40AC50B1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift */,
+				C40AC50D1E3BB9F800D46BE2 /* Info.plist */,
+			);
+			path = PINRemoteImageButtonTintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40AC4E71E3BB9F800D46BE2 /* PINRemoteImageButtonTint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40AC5101E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTint" */;
+			buildPhases = (
+				C40AC4E41E3BB9F800D46BE2 /* Sources */,
+				C40AC4E51E3BB9F800D46BE2 /* Frameworks */,
+				C40AC4E61E3BB9F800D46BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINRemoteImageButtonTint;
+			productName = PINRemoteImageButtonTint;
+			productReference = C40AC4E81E3BB9F800D46BE2 /* PINRemoteImageButtonTint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40AC4FB1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40AC5131E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTintTests" */;
+			buildPhases = (
+				C40AC4F81E3BB9F800D46BE2 /* Sources */,
+				C40AC4F91E3BB9F800D46BE2 /* Frameworks */,
+				C40AC4FA1E3BB9F800D46BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40AC4FE1E3BB9F800D46BE2 /* PBXTargetDependency */,
+			);
+			name = PINRemoteImageButtonTintTests;
+			productName = PINRemoteImageButtonTintTests;
+			productReference = C40AC4FC1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40AC5061E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40AC5161E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTintUITests" */;
+			buildPhases = (
+				C40AC5031E3BB9F800D46BE2 /* Sources */,
+				C40AC5041E3BB9F800D46BE2 /* Frameworks */,
+				C40AC5051E3BB9F800D46BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40AC5091E3BB9F800D46BE2 /* PBXTargetDependency */,
+			);
+			name = PINRemoteImageButtonTintUITests;
+			productName = PINRemoteImageButtonTintUITests;
+			productReference = C40AC5071E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40AC4E01E3BB9F800D46BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Funkware;
+				TargetAttributes = {
+					C40AC4E71E3BB9F800D46BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+					};
+					C40AC4FB1E3BB9F800D46BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C40AC4E71E3BB9F800D46BE2;
+					};
+					C40AC5061E3BB9F800D46BE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C40AC4E71E3BB9F800D46BE2;
+					};
+				};
+			};
+			buildConfigurationList = C40AC4E31E3BB9F800D46BE2 /* Build configuration list for PBXProject "PINRemoteImageButtonTint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40AC4DF1E3BB9F800D46BE2;
+			productRefGroup = C40AC4E91E3BB9F800D46BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40AC4E71E3BB9F800D46BE2 /* PINRemoteImageButtonTint */,
+				C40AC4FB1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests */,
+				C40AC5061E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40AC4E61E3BB9F800D46BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AC4F61E3BB9F800D46BE2 /* LaunchScreen.storyboard in Resources */,
+				C40AC4F31E3BB9F800D46BE2 /* Assets.xcassets in Resources */,
+				C40AC4F11E3BB9F800D46BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC4FA1E3BB9F800D46BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC5051E3BB9F800D46BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40AC4E41E3BB9F800D46BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AC4EE1E3BB9F800D46BE2 /* ViewController.swift in Sources */,
+				C40AC4EC1E3BB9F800D46BE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC4F81E3BB9F800D46BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AC5011E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40AC5031E3BB9F800D46BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AC50C1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40AC4FE1E3BB9F800D46BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40AC4E71E3BB9F800D46BE2 /* PINRemoteImageButtonTint */;
+			targetProxy = C40AC4FD1E3BB9F800D46BE2 /* PBXContainerItemProxy */;
+		};
+		C40AC5091E3BB9F800D46BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40AC4E71E3BB9F800D46BE2 /* PINRemoteImageButtonTint */;
+			targetProxy = C40AC5081E3BB9F800D46BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40AC4EF1E3BB9F800D46BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40AC4F01E3BB9F800D46BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40AC4F41E3BB9F800D46BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40AC4F51E3BB9F800D46BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40AC50E1E3BB9F800D46BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40AC50F1E3BB9F800D46BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40AC5111E3BB9F800D46BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C40AC5121E3BB9F800D46BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C40AC5141E3BB9F800D46BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINRemoteImageButtonTint.app/PINRemoteImageButtonTint";
+			};
+			name = Debug;
+		};
+		C40AC5151E3BB9F800D46BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PINRemoteImageButtonTint.app/PINRemoteImageButtonTint";
+			};
+			name = Release;
+		};
+		C40AC5171E3BB9F800D46BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PINRemoteImageButtonTint;
+			};
+			name = Debug;
+		};
+		C40AC5181E3BB9F800D46BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = PINRemoteImageButtonTintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.PINRemoteImageButtonTintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PINRemoteImageButtonTint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40AC4E31E3BB9F800D46BE2 /* Build configuration list for PBXProject "PINRemoteImageButtonTint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40AC50E1E3BB9F800D46BE2 /* Debug */,
+				C40AC50F1E3BB9F800D46BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40AC5101E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40AC5111E3BB9F800D46BE2 /* Debug */,
+				C40AC5121E3BB9F800D46BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40AC5131E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40AC5141E3BB9F800D46BE2 /* Debug */,
+				C40AC5151E3BB9F800D46BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40AC5161E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40AC5171E3BB9F800D46BE2 /* Debug */,
+				C40AC5181E3BB9F800D46BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40AC4E01E3BB9F800D46BE2 /* Project object */;
+}
