@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C1B2621229D58245FDB132 /* Pods_PINRemoteImageButtonTint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182638C5B55EB00612F780C9 /* Pods_PINRemoteImageButtonTint.framework */; };
+		6BAF95D94F3B1CB7E92A5FB3 /* Pods_PINRemoteImageButtonTintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACAEA525717D81C70870DEE /* Pods_PINRemoteImageButtonTintTests.framework */; };
 		C40AC4EC1E3BB9F800D46BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC4EB1E3BB9F800D46BE2 /* AppDelegate.swift */; };
 		C40AC4EE1E3BB9F800D46BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AC4ED1E3BB9F800D46BE2 /* ViewController.swift */; };
 		C40AC4F11E3BB9F800D46BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40AC4EF1E3BB9F800D46BE2 /* Main.storyboard */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042C42ABE714E17C4A89F6DA /* Pods-PINRemoteImageButtonTintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteImageButtonTintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteImageButtonTintTests/Pods-PINRemoteImageButtonTintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ACAEA525717D81C70870DEE /* Pods_PINRemoteImageButtonTintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINRemoteImageButtonTintTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182638C5B55EB00612F780C9 /* Pods_PINRemoteImageButtonTint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINRemoteImageButtonTint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72D579F41ED0CEB9175D58 /* Pods-PINRemoteImageButtonTint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteImageButtonTint.release.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteImageButtonTint/Pods-PINRemoteImageButtonTint.release.xcconfig"; sourceTree = "<group>"; };
+		826DD8286AE61534E402234A /* Pods-PINRemoteImageButtonTint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteImageButtonTint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteImageButtonTint/Pods-PINRemoteImageButtonTint.debug.xcconfig"; sourceTree = "<group>"; };
 		C40AC4E81E3BB9F800D46BE2 /* PINRemoteImageButtonTint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINRemoteImageButtonTint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AC4EB1E3BB9F800D46BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C40AC4ED1E3BB9F800D46BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		C40AC5071E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINRemoteImageButtonTintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AC50B1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINRemoteImageButtonTintUITests.swift; sourceTree = "<group>"; };
 		C40AC50D1E3BB9F800D46BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88D33B8E3E7D7EA8C326A30 /* Pods-PINRemoteImageButtonTintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINRemoteImageButtonTintTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PINRemoteImageButtonTintTests/Pods-PINRemoteImageButtonTintTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C1B2621229D58245FDB132 /* Pods_PINRemoteImageButtonTint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAF95D94F3B1CB7E92A5FB3 /* Pods_PINRemoteImageButtonTintTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65E54BCCEFE163914C199C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182638C5B55EB00612F780C9 /* Pods_PINRemoteImageButtonTint.framework */,
+				0ACAEA525717D81C70870DEE /* Pods_PINRemoteImageButtonTintTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AEDA060C3B640DD0611E014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				826DD8286AE61534E402234A /* Pods-PINRemoteImageButtonTint.debug.xcconfig */,
+				2D72D579F41ED0CEB9175D58 /* Pods-PINRemoteImageButtonTint.release.xcconfig */,
+				042C42ABE714E17C4A89F6DA /* Pods-PINRemoteImageButtonTintTests.debug.xcconfig */,
+				F88D33B8E3E7D7EA8C326A30 /* Pods-PINRemoteImageButtonTintTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C40AC4DF1E3BB9F800D46BE2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				C40AC4FF1E3BB9F800D46BE2 /* PINRemoteImageButtonTintTests */,
 				C40AC50A1E3BB9F800D46BE2 /* PINRemoteImageButtonTintUITests */,
 				C40AC4E91E3BB9F800D46BE2 /* Products */,
+				8AEDA060C3B640DD0611E014 /* Pods */,
+				65E54BCCEFE163914C199C0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40AC5101E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTint" */;
 			buildPhases = (
+				C442A362D38BE0FF2A032C75 /* [CP] Check Pods Manifest.lock */,
 				C40AC4E41E3BB9F800D46BE2 /* Sources */,
 				C40AC4E51E3BB9F800D46BE2 /* Frameworks */,
 				C40AC4E61E3BB9F800D46BE2 /* Resources */,
+				07062C2DB62E43EFB748D27A /* [CP] Embed Pods Frameworks */,
+				D8A97F38067CADF695A4B832 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40AC5131E3BB9F800D46BE2 /* Build configuration list for PBXNativeTarget "PINRemoteImageButtonTintTests" */;
 			buildPhases = (
+				80B99950725A9AE3DBC07F96 /* [CP] Check Pods Manifest.lock */,
 				C40AC4F81E3BB9F800D46BE2 /* Sources */,
 				C40AC4F91E3BB9F800D46BE2 /* Frameworks */,
 				C40AC4FA1E3BB9F800D46BE2 /* Resources */,
+				27F21702DAD93FC25715E3F4 /* [CP] Embed Pods Frameworks */,
+				C7F258FEB09398EB8EF81190 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07062C2DB62E43EFB748D27A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PINRemoteImageButtonTint/Pods-PINRemoteImageButtonTint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27F21702DAD93FC25715E3F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PINRemoteImageButtonTintTests/Pods-PINRemoteImageButtonTintTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B99950725A9AE3DBC07F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C442A362D38BE0FF2A032C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F258FEB09398EB8EF81190 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PINRemoteImageButtonTintTests/Pods-PINRemoteImageButtonTintTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A97F38067CADF695A4B832 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PINRemoteImageButtonTint/Pods-PINRemoteImageButtonTint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C40AC4E41E3BB9F800D46BE2 /* Sources */ = {
@@ -413,6 +544,7 @@
 		};
 		C40AC5111E3BB9F800D46BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826DD8286AE61534E402234A /* Pods-PINRemoteImageButtonTint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
@@ -426,6 +558,7 @@
 		};
 		C40AC5121E3BB9F800D46BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72D579F41ED0CEB9175D58 /* Pods-PINRemoteImageButtonTint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
@@ -439,6 +572,7 @@
 		};
 		C40AC5141E3BB9F800D46BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042C42ABE714E17C4A89F6DA /* Pods-PINRemoteImageButtonTintTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +588,7 @@
 		};
 		C40AC5151E3BB9F800D46BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88D33B8E3E7D7EA8C326A30 /* Pods-PINRemoteImageButtonTintTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
